@@ -1,0 +1,16 @@
+#box {
+    width: 300px;
+    height: 300px;
+    background-color: #ddd;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}

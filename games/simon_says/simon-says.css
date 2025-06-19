@@ -1,0 +1,46 @@
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
+    margin: 20px auto;
+    width: max-content;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: background-color 0.2s;
+}
+
+#green { background-color: #4CAF50; }
+#red { background-color: #f44336; }
+#yellow { background-color: #ffeb3b; }
+#blue { background-color: #2196F3; }
+
+.btn.active {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px white;
+}
+
+#startBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#status {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+#game-board {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+.card.revealed {
+    background-color: #fff;
+    color: #000;
+    cursor: default;
+}

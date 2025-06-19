@@ -1,0 +1,35 @@
+#gameArea {
+    width: 500px;
+    height: 400px;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    position: relative;
+    border: 2px solid #ccc;
+}
+
+.target {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+#startBtn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}

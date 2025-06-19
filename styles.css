@@ -1,0 +1,40 @@
+body {
+      background: linear-gradient(360deg, #013b6d, #56aeff);
+      min-height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 40px 0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 40px;
+      font-weight: 700;
+      color: #0d6efd;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .game-card {
+      display: block;
+      padding: 20px;
+      border: 2px solid #0dcaf0;
+      border-radius: 12px;
+      background-color: rgba(13, 202, 240, 0.2);
+      color: #0d0d0d;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.25rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(13, 202, 240, 0.4);
+      background-color: rgba(13, 202, 240, 0.3);
+      color: #000;
+    }
+
+    .game-grid .col {
+      margin-bottom: 20px;
+    }
